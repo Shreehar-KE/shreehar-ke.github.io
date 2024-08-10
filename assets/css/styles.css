@@ -10,9 +10,9 @@
     --first-color: hsl(350, 98%, 64%);
     --title-color: hsl(0, 0%, 100%);
     --text-color: hsl(0, 0%, 77%);
-    --body-color: hsl(0, 0%, 6%);;
-    --container-color: hsl(0, 0%, 10%);;
-    --border-color: hsl(0, 0%, 100%, 0.2);;
+    --body-color: hsl(0, 0%, 6%);
+    --container-color: hsl(0, 0%, 10%);
+    --border-color: hsla(0, 0%, 100%, 0.2);
 
     /* FONTS & TYPOGRAPHY */
     /* .5rem = 8px | 1rem = 16px ...*/
@@ -42,7 +42,64 @@
     --radius: .5rem;
     
     /* Z-INDEX */
-    --z-tooltip: ;
-    --z-fixed: ;
+    --z-tooltip: 10;
+    --z-fixed: 100;
+}
 
+/* RESPONSIVE TYPOGRAPHY */
+@media screen and (max-width: 992px) {
+        :root {
+            --h2-font-size: ;
+            --h3-font-size: ;
+            --normal-font-size: ;
+            --small-font-size: ;
+            --smaller-font-size: ;
+
+
+        }
+}
+
+/* BASE */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+input, textarea, body {
+    color: var(--text-color);
+    font-family: var(--body-font);
+    font-size: var(--normal-font-size);
+    font-weight: var(--weight-300);
+}
+
+body {
+    background-color: var(--body-color);
+}
+
+h1, h2, h3 {
+    color: var(--title-color);
+    font-weight: var(--weight-700);
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    line-height: 1.67em;
+}
+
+img {
+    max-width: 100%;
+}
+
+textarea, input {
+    background-color: none;
+    border: none;
+    outline: none;
 }
