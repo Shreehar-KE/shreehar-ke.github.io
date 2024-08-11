@@ -7,7 +7,7 @@
 
     /* COLORS */
     /* Color mode HSL(Hue, Saturation, Lightness) */
-    --first-color: hsl(350, 98%, 64%);
+    --first-color: hsl(180, 100%, 50%);
     --title-color: hsl(0, 0%, 100%);
     --text-color: hsl(0, 0%, 77%);
     --body-color: hsl(0, 0%, 6%);
@@ -103,3 +103,78 @@ textarea, input {
     border: none;
     outline: none;
 }
+
+/* REUSABLE CSS CLASSES */
+.container {
+    max-width: 1260px;
+    margin-inline: auto;
+    padding-inline: 0.75rem;
+}
+
+.grid {
+    display: grid;
+    gap: 1.75rem;
+}
+
+/* HEADER & NAV */
+
+/* ACTIVE LINK */
+
+/* CHANGE BACKGROUND HEADER */
+
+/* HOME */
+.home {
+    padding-block: 16rem 9rem;
+}
+
+.home__container {
+    grid-template-columns: 7fr 5fr;
+    align-items: center;
+}
+
+.home__subtitle {
+    display: block;
+    font-size: var(--small-font-size);
+    font-weight: var(--weight-400);
+    letter-spacing: 0.25rem;
+    margin-bottom: 1.25rem;
+}
+
+.home__title {
+    font-family: var(--second-font);
+    font-size: 4rem;
+    font-weight: var(--weight-900);
+}
+
+.home__title span {
+    color: var(--first-color);
+}
+
+.home__img {
+    width: 420px;
+    height: 420px;
+    border-radius: 50%;
+    border: 0.75rem solid var(--container-color);
+    margin-left: auto;
+}
+
+/* ABOUT */
+
+/* ACTIVE TAB */
+
+
+/* SERVICES */
+
+
+/* WORK */
+
+/* WORK HOVER */
+
+
+/* CONTACT */
+
+
+/* FOOTER */
+
+
+/* SCROLL UP */
