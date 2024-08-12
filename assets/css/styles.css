@@ -210,6 +210,7 @@ textarea, input {
     width: 30%;
     height: 2px;
     background-color: var(--text-color);
+    transition: all 0.3s var(--transition);
 }
 
 .tabs__data {
@@ -229,6 +230,13 @@ textarea, input {
     width: 100%;
 }
 
+.tabs__item[data-content] {
+    display: none;
+}
+
+.tab__active[data-content] {
+    display: block;
+}
 
 /* SERVICES */
 

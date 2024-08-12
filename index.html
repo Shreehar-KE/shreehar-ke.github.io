@@ -35,13 +35,13 @@
             perspiciatis possimus.
           </p>
           <div class="tabs__btns">
-            <span class="tabs__btn tab__active">Main Skills</span>
-            <span class="tabs__btn">Awards</span>
-            <span class="tabs__btn">Experience</span>
-            <span class="tabs__btn">Education & Certification</span>
+            <span class="tabs__btn tab__active" data-target="#skills">Main Skills</span>
+            <span class="tabs__btn" data-target="#awards">Awards</span>
+            <span class="tabs__btn" data-target="#experience">Experience</span>
+            <span class="tabs__btn" data-target="#education">Education & Certification</span>
           </div>
           <div class="tabs__content">
-            <div class="tabs__item tab__active">
+            <div class="tabs__item tab__active" data-content id="skills">
               <div class="tabs__data grid">
                 <p class="tabs__description">
                   <span>User Experience Design</span> - UI/UX
@@ -57,7 +57,7 @@
                 </p>
               </div>
             </div>
-            <div class="tabs__item">
+            <div class="tabs__item" data-content id="awards">
               <div class="tabs__data grid">
                 <p class="tabs__description">
                   <span>Awwwards.com</span> - Winner
@@ -73,7 +73,7 @@
                 </p>
               </div>
             </div>
-            <div class="tabs__item">
+            <div class="tabs__item" data-content id="experience">
               <div class="tabs__data grid">
                 <p class="tabs__description">
                   <span>Sr.Frontend Engineer</span> - Google
@@ -89,7 +89,7 @@
                 </p>
               </div>
             </div>
-            <div class="tabs__item">
+            <div class="tabs__item" data-content id="education">
               <div class="tabs__data grid">
                 <p class="tabs__description">
                   <span>BSc in CSE</span> - ABC Institute, Los Angeles, CA
