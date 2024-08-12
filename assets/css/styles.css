@@ -125,6 +125,16 @@ textarea, input {
     margin-bottom: 1rem;
 }
 
+.section__title:not(.about .section__title), .section__description {
+    text-align: center;
+}
+
+.section__description {
+    max-width: 600px;
+    margin-inline: auto;
+    margin-bottom: 3.75rem;
+}
+
 /* HEADER & NAV */
 
 /* ACTIVE LINK */
