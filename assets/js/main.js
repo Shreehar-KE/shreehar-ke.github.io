@@ -67,7 +67,7 @@ const sendEmail = (e) => {
             '#contact-form', 
             'dNGPgenuXyHnG_sM9'
         ).then(() => {
-            // show message and add color, window + dot to open emoji
+            // show message and add color
             errorMessage.classList.add('color-first');
             errorMessage.textContent = 'Message Sent ✔'
 
