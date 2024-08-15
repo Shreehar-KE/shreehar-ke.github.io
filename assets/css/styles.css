@@ -3,7 +3,7 @@
 
 /* VARIABLES CSS */
 :root {
-    --header-weight: 6rem;
+    --header-height: 6rem;
 
     /* COLORS */
     /* Color mode HSL(Hue, Saturation, Lightness) */
@@ -155,6 +155,7 @@ textarea, input {
 }
 
 /* HEADER & NAV */
+
 
 /* ACTIVE LINK */
 
