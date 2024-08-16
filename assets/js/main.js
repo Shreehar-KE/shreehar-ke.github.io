@@ -23,6 +23,8 @@ function scrollHeader() {
     else header.classList.remove('scroll-header');
 }
 
+window.addEventListener('scroll', scrollHeader);
+
 // SHOW SCROLL UP
 
 
