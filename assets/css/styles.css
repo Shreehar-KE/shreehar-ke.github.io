@@ -286,8 +286,12 @@ textarea, input {
     width: 420px;
     height: 420px;
     border-radius: 50%;
-    border: 0.75rem solid var(--container-color);
+    border: 0.5rem solid var(--container-color);
     margin-left: auto;
+}
+
+.home__img:hover {
+    border-color: var(--first-color);
 }
 
 /* ABOUT */
@@ -307,6 +311,7 @@ textarea, input {
 
 .about__description {
     margin-bottom: 2rem;
+    text-align: justify;
 }
 
 .tabs__btns {
@@ -604,7 +609,7 @@ textarea, input {
     }
 
     .home {
-        padding: 11rem;    
+        padding-top: 11rem;    
     }
 
     .home__container, .about__container {
@@ -617,6 +622,8 @@ textarea, input {
 
     .home__content {
         order: 1;
+        width: fit-content;
+        justify-self: center;
     }
 
     .home__img, .about__img {
