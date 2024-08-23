@@ -274,7 +274,7 @@ textarea, input {
 
 .home__title {
     font-family: var(--second-font);
-    font-size: 4rem;
+    font-size: var(--h1-font-size);
     font-weight: var(--weight-900);
 }
 
@@ -762,6 +762,10 @@ textarea, input {
         max-width: 540px;
     }
 
+    /* .home__title {
+        font-size: 3rem;
+    } */
+
     .home__img {
         width: 280px;
         height: 280px;
@@ -793,6 +797,10 @@ textarea, input {
         padding: 2.75rem;
     }
 
+    /* .home__title {
+        font-size: 2rem;
+    } */
+
     .home__img {
         width: 260px;
         height: 260px;
@@ -809,6 +817,10 @@ textarea, input {
         width: 240px;
         height: 240px;
     }
+
+    /* .home__title {
+        font-size: 1.75rem;
+    } */
 
     .tabs__description span:last-child {
         display: inline;
