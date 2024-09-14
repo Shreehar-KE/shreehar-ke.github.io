@@ -378,9 +378,7 @@ textarea, input {
 }
 
 .services__icon {
-    color: var(--first-color);
-    font-size: 3.25rem;
-    line-height: 1;
+    height: 4rem;
 }
 
 .services__title {
@@ -624,6 +622,12 @@ textarea, input {
     font-weight: var(--weight-400);
     justify-self: flex-end;
 }
+
+.icons8 {
+    text-decoration: underline;
+    color: var(--text-color);
+}
+
 /* SCROLL UP */
 .scrollup {
     position: fixed;
