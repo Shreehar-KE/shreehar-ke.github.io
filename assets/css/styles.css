@@ -300,7 +300,7 @@ textarea, input {
 }
 
 .about__container {
-    grid-template-columns: 5fr 7fr;
+    grid-template-columns: 4fr 8fr;
     align-items: center;
     column-gap: 4rem;
 }
@@ -312,6 +312,10 @@ textarea, input {
 .about__description {
     margin-bottom: 2rem;
     text-align: justify;
+}
+
+.tabs__content {
+    min-height: 212.281px;
 }
 
 .tabs__btns {
@@ -428,6 +432,11 @@ textarea, input {
 .portfolio__img {
     width: 100%;
     vertical-align: middle;
+    transition: all .65s var(--transition);
+}
+
+.portfolio__img:hover {
+    transform: scale(1.1);
 }
 
 .portfolio__data {
@@ -602,7 +611,7 @@ textarea, input {
 
 .footer__social-link {
     color: var(--text-color);
-    font-size: var(--small-font-size);
+    font-size: var(--normal-font-size);
     border: 2px solid var(--text-color);
     width: 46px;
     height: 46px;
@@ -692,9 +701,12 @@ textarea, input {
         width: 380px;
         height: 380px;
     }
-
     .about__container {
         row-gap: 2.5rem;
+    }
+
+    .about__img {
+        height: 100%;
     }
 
     .services__container, .portfolio__container {
@@ -832,6 +844,10 @@ textarea, input {
         flex-wrap: wrap;
         row-gap: 0.75rem;
         column-gap: 1.5rem;
+    }
+
+    .tabs__content {
+        min-height: 219.031px;
     }
 
     .services__container, .portfolio__container, .footer__container {
