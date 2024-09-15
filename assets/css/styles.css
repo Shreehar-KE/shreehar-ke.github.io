@@ -414,7 +414,6 @@ textarea, input {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    padding: 0 4rem;
 }
 
 .portfolio__link {
@@ -667,7 +666,8 @@ textarea, input {
 /* For large devices */
 @media screen and (max-width: 1200px) {
     .container {
-        max-width: 960px;
+        /* max-width: 960px; */
+        max-width: 70%;
     }
 
     .nav__btns {
@@ -720,7 +720,8 @@ textarea, input {
 
 @media screen and (max-width: 992px) {
     .container {
-        max-width: 720px;
+        /* max-width: 720px; */
+        max-width: 70%;
     }
 
     .nav {
@@ -828,12 +829,21 @@ textarea, input {
 /* For medium devices */
 @media screen and (max-width: 768px) {
     .container {
-        max-width: 540px;
+        /* max-width: 540px; */
+        max-width: 80%;
     }
 
     /* .home__title {
         font-size: 3rem;
     } */
+
+    .home {
+        padding-block: 6rem;
+    }
+
+    .section {
+        padding-block: 4rem;
+    }
 
     .home__img {
         width: 280px;
@@ -850,8 +860,18 @@ textarea, input {
         min-height: 219.031px;
     }
 
-    .services__container, .portfolio__container, .footer__container {
-        grid-template-columns: 1fr;
+
+    .section__description {
+        margin-bottom: 1.5rem;
+    }
+
+    .contact__form {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .btn {
+        align-self: center;
     }
 
     .footer__container {
@@ -865,6 +885,10 @@ textarea, input {
 }
 
 @media screen and (max-width: 576px) {
+    .container {
+        max-width: 90%;
+    }
+
     .nav__menu {
         width: 100vw;
         padding: 2.75rem;
@@ -877,6 +901,16 @@ textarea, input {
     .home__img {
         width: 260px;
         height: 260px;
+    }
+
+    .tabs__content {
+        min-height: 272.469px;
+    }
+
+    .services__container,
+    .portfolio__container,
+    .footer__container {
+        grid-template-columns: 1fr;
     }
 
     .services__item {
@@ -894,6 +928,10 @@ textarea, input {
     /* .home__title {
         font-size: 1.75rem;
     } */
+
+    .tabs__content {
+        min-height: 219.031px;
+    }
 
     .tabs__description span:last-child {
         display: inline;
