@@ -191,14 +191,24 @@ textarea, input {
     column-gap: 2rem;
 }
 
-.nav__link, .nav__social-link {
-    font-style: var(--small-font-size);
+.nav__link{
+    font-size: var(--normal-font-size);
+    color: var(--title-color);
+    transition: all 0.3s var(--transition);
+}
+
+.nav__social-link {
+    font-size: var(--h3-font-size);
     color: var(--title-color);
     transition: all 0.3s var(--transition);
 }
 
 .nav__link {
     font-weight: var(--weight-500);
+}
+
+#nav-link-contact {
+    display: none;
 }
 
 .nav__socials {
@@ -672,6 +682,10 @@ textarea, input {
 
     .nav__btns {
         display: none;
+    }
+
+    #nav-link-contact {
+        display: block;
     }
 
     .home {
